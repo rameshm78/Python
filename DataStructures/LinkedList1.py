@@ -140,6 +140,9 @@ my_list.append(3)
 my_list.append(4)
 my_list.display()
 
+# Test length of list
+print("Length of the lis is: ", my_list.length())
+
 # Test Get function
 print("Element at index 2 is: ", my_list.get(2))
 
@@ -147,3 +150,4 @@ print("Element at index 2 is: ", my_list.get(2))
 my_list.erase(3)
 print("Linked list after erasing node at Index 3:")
 my_list.display()
+
