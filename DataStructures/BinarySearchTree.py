@@ -185,3 +185,9 @@ tree.print_tree()
 
 # Print height of the tree
 print("Height of the tree is: ", tree.height())
+
+# Search for 100 and 5 in the tree
+print(tree.search(5))
+print(tree.find(5))
+print(tree.search(100))
+print(tree.find(100))
